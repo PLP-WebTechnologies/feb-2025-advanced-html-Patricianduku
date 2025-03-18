@@ -1,0 +1,115 @@
+<!--lists,images,tables,forms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LISTS,IMAGES,TABLES,FORMS</title>
+</head>
+<body>
+    <!--LISTS-->
+    <H2>Ordered list</H2>
+    <ol type="I"start="100"><!--ATTRIBUTES GIVES MORE INFORMATION ABOUT the tags.g type changes
+        it to numerical,alphabetical etc-->
+        <li>kenya</li>
+<li>South Africa</li>
+<li>Nigeria</li>
+   
+</ol>
+<h2>Un-ordered List</h2>
+<ul type="circle">
+    <li>Ghana</li>
+    <li>South sudan</li>
+<li>Spain</li>
+</ul>
+<h2>Defination List</h2><!--they define terms and descriptions-->
+<dl>
+    <dt>HTML</dt>
+    <dd>Hyper Text Markup Language</dd>
+</dl>
+<h3>internal images</h3>
+<img src="IMG_20210914_012734.jpg" alt="image of puppies"height="400"width="350">
+<h3>external images</h3>
+<img src="https://images.pexels.com/photos/1387037/pexels-photo-1387037.jpeg?auto=compress&cs=tinysrgb&w=600"
+alt="image of people"height="300"width="150">
+<!--TABLES-->
+<table border="1">
+    <thead>
+        <tr>
+            <th>student Name</th>
+            <th>country</th>
+            <th>Age</th>        
+</tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>eddy</td>
+        <td>kenya</td>
+        <td>25</td>
+        </tr>
+        <tr>
+            <td>edna</td>
+            <td>SA</td>
+            <td>21</td>
+            </tr>
+            <tr>
+                <td>CATE</td>
+                <td>nigeria</td>
+                <td>23</td>
+                </tr>
+                <tr>
+                    <td>ed</td>
+                    <td>somalia</td>
+                    <td>22</td>
+                    </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>student Name</th>
+            <th>country</th>
+<th>Age</th>        
+</tr>
+    </tfoot>
+</table>
+<!--FORMS-->
+<h2>Html Forms</h2>
+<form action=""method=""><!--action specifies where the data is going to
+    /that location where it goes is specified in action attribute
+    method attribute specifies how the data will be transmitted-->
+    <label for="full name">Full name</label><!--shows purpose of input field
+    for attributes shows corresponding text filed.the required attribute below makes it compulsory to input-->
+<input type="text" id=""name="full_name"required placeholder="your full name">
+<br><br>
+<label for="email">Email</label>
+<input type="email"placeholder="johndoe@gmail.com">
+<br>
+<label for="password">Password:</label>
+<input type="password"id="password"name="password"><br>
+<label for="address">Address:</label>
+<input type="address"id="address"name="address"required>
+<br>
+<label for ="gender">Gender</label>
+<input type="radio" name="gender"value="female">Female
+<input type="radio" name="gender"value="male">male
+<br><br>
+<label for="hobbies">Hobbies</label>
+<input type="checkbox"name="hobby"value="travel">Travel
+<input type="checkbox"name="hobby"value="music">music
+<input type="checkbox"name="hobby"value="swimming">Travel
+<input type="checkbox"name="hobby"value="reading">reading
+<br><br>
+<label>Country</label>
+<select name="country"id="country" >
+    <option>--Select Country--</option>
+    <option value="south Africa">South Africa</option>
+    <option value="ghana">Ghana</option>
+    <option value="somalia">Somalia</option>
+    <option value="kenya">kenya</option>
+
+</select>
+<br><br>
+<button type="submit">Submit</button>
+<input type="reset" value="cancel/reset">
+</form>
+</body>
+</html>

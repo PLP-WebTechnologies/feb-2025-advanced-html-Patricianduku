@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Assignment</title>
+</head>
+<body>
+    <!--ordered List with type attribute that has roman numerals to list the following-->
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Software Engineering</li>
+        <li>Python Development</li>
+        <li>Web Technologies</li>
+        <li>Software Pitching</li>
+        <li>Frontend Development</li>
+</ol>
+<br>
+<br>
+<!--inserting an external image from pexels -->
+<h2>External Image</h2>
+<img src="https://images.pexels.com/photos/270632/pexels-photo-270632.jpeg?auto=compress&cs=tinysrgb&w=600"height="250"width="150"
+alt="image of a code">
+<br>
+<br>
+<!--TABLE-->
+<h2>Table</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Edwin</td>
+            <td>Kasarani</td>
+            <td>0734567890</td>
+            <td>edwinW12@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Edna</td>
+            <td>Buruburu</td>
+            <td>0789234567</td>
+            <td>ednaDina23@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Cate</td>
+            <td>Zimmerman</td>
+            <td>0767453289</td>
+            <td>catenjiru11@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Evans</td>
+            <td>Eldoret</td>
+            <td>0789546321</td>
+            <td>evanstiggs7@gmail.com</td>
+
+        </tr>
+        <tr>
+            <td>Leah</td>
+            <td>Kayole</td>
+            <td>0780077721</td>
+            <td>leahrose77@gmail.com</td>
+
+        </tr>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+    <th>Mobile</th> 
+    <th>Email</th>        
+
+    </tr>
+        </tfoot>
+    </tbody>
+    </table>
+    <br>
+    <br>
+    <!--FORMS-->
+    <h2>Html Forms</h2>
+    <form action=""method=""><!--action specifies where the data is going to
+        /that location where it goes is specified in action attribute
+        method attribute specifies how the data will be transmitted-->
+        <label for="full name">Full name</label><!--shows purpose of input field
+        for attributes shows corresponding text filed.the required attribute below makes it compulsory to input-->
+    <input type="text" id=""name="full_name"required placeholder="your full name">
+    <br><br>
+    <label for="email">Email</label>
+    <input type="email"placeholder="johndoe@gmail.com">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password"id="password"name="password" required placeholder="***********"><br>
+    <label for="date">Date</label>
+    <input type="date"required>
+    <br>
+    <label for ="gender">Gender</label>
+    <input type="radio" name="gender"value="female">Female
+    <input type="radio" name="gender"value="male">male
+    <br><br>
+    <label for="hobbies">Hobbies</label>
+    <input type="checkbox"name="hobby"value="travel">Travel
+    <input type="checkbox"name="hobby"value="music">music
+    <input type="checkbox"name="hobby"value="swimming">Travel
+    <input type="checkbox"name="hobby"value="reading">reading
+    <br><br>
+    <label>Country</label>
+    <select name="country"id="country" >
+        <option>--Select Country--</option>
+        <option value="south Africa">South Africa</option>
+        <option value="ghana">Ghana</option>
+        <option value="somalia">Somalia</option>
+        <option value="kenya">kenya</option>
+    
+    </select>
+    <br><br>
+    <button type="submit">Submit</button>
+    <input type="reset" value="cancel/reset">
+    </form>
+    <br>
+    <br>
+    <!--embedding audio and video-->
+    <audio controls>
+        <source src="Hulvey - Reasons (Official Video) ft. Lecrae, SVRCINA.mp3"type="audio/mp3">
+    </audio>
+    <br>
+    <br>
+    <video width="320"height="240"controls>
+        <source src="https://youtube.com/shorts/J50wrI7u45g?si=jih6V3bVOjvIs3TK" type="video/mp4">
+</body>
+</html>
